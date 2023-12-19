@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+#container{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+button{
+    padding:5px 8px;
+    margin: 10px 15px;
+    border-radius: 15px;
+    border: 1px solid grey;
+    box-shadow: 3px 2px 1px rgba(0,0,0,0.5);
+    cursor: pointer;
+    font-size: 15px;
+}
+button:active{
+    color: red;
+    border-color: red;
+    box-shadow: none;
+}
+img{
+    height:180px;
+    width: 300px;
+}
